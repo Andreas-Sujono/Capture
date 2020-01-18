@@ -14,10 +14,10 @@ export default function Rating (props){
     return (
         <div>
             {
-                starYellow.map( () => <span class="fa fa-star" style={{color:'orange'}} ></span> )
+                starYellow.map( () => <span class="fa fa-star" style={{color:'orange'}} key={Math.random()} ></span> )
             }
             {
-                starEmpty.map( () => <span class="fa fa-star"></span> )
+                starEmpty.map( () => <span class="fa fa-star" key={Math.random()}></span> )
             }
         </div>
 
