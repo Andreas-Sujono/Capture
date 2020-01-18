@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 import Item from './components/item.js'
+import Login from './components/login.js'
+import Footer from './components/footer.js'
 
 function App() {
   return (
     <div className="fluid-container">
+      <Login action="Login"/>
+      <Login action="Sign Up"/>
       <div className="row row-0">
         <div className="header col-4">Capture</div>
         <div className="search col-8">
@@ -55,6 +59,7 @@ function App() {
           </div>
 
         </div>
+        <Footer/>
     </div>
   );
 }

@@ -5,7 +5,6 @@ class Item extends Component {
         return(
             <div className="col-4">
                 <div className="square-item">
-
                 </div>
             </div>
         )
