@@ -1,8 +1,0 @@
-@media Screen and (max-width:760px){
-    .homepage .titleBar{
-        padding-bottom:20px;
-      }
-    .header .leftContent span{
-        font-size: 14px;
-    }
-}
